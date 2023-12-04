@@ -1,0 +1,55 @@
+body,
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.integrated-posts {
+    margin-top: 20px;
+}
+
+.post {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h3 {
+    margin: 0;
+}
+
+.header li {
+    display: flex;
+    align-items: center;
+}
+
+.post img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.comment {
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
